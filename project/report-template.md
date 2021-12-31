@@ -28,15 +28,15 @@ I tried a lot of combination of hyperparameter tuning although the score did not
 Definitely, on feature engineering. It is by far more efficient than hyperparameter tuning.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the Kaggle score.
-'| model        |   time | presets      | num_bag_folds   | num_bag_sets   | num_stack_levels   |   score |\n
- |:-------------|-------:|:-------------|:----------------|:---------------|:-------------------|--------:|\n
- | initial      |    600 | best_quality | Default         | Default        | Default            | 1.39413 |\n
- | add_features |   1200 | best_quality | Default         | Default        | Default            | 0.47568 |\n
- | hpo          |   1200 | best_quality | 7               | 1              | 2                  | 0.468   |'
+ | model        |   time | presets      | num_bag_folds   | num_bag_sets   | num_stack_levels   |   score |
+ |--------------|--------|--------------|-----------------|----------------|--------------------|---------|
+ | initial      |    600 | best_quality | Default         | Default        | Default            | 1.39413 |
+ | add_features |   1200 | best_quality | Default         | Default        | Default            | 0.47568 |
+ | hpo          |   1200 | best_quality | 7               | 1              | 2                  | 0.468   |
 
 ### Create a line plot showing the top Kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](model_test_score.png)
+![model_test_score.png](img/model_test_score.png)
 
 ## Summary
 I improved the model by adding and changing the dataset features which resulted in reducing the RMSLE error 0.91845. I also, tuned the hyperparameters of TabularPredector. However, despite the effort and combining different combinations, hyperparameter tuning did not improve the results significantly.
