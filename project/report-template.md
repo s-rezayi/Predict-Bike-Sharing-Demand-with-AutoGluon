@@ -36,7 +36,7 @@ Definitely, on feature engineering. It is by far more efficient than hyperparame
 
 ### Create a line plot showing the top Kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](img/model_train_score.png)
 
 ## Summary
 I improved the model by adding and changing the dataset features which resulted in reducing the RMSLE error 0.91845. I also, tuned the hyperparameters of TabularPredector. However, despite the effort and combining different combinations, hyperparameter tuning did not improve the results significantly.
